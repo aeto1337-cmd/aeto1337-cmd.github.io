@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[25205,["/_next/static/chunks/046rxbz2oiujx.js","/_next/static/chunks/099m1nb_lg797.js","/_next/static/chunks/0qn_qdg2r2lpo.js","/_next/static/chunks/0eaixtig92f2w.js","/_next/static/chunks/02xqm164ylol2.js"],"Loader"]
+3:I[92021,["/_next/static/chunks/046rxbz2oiujx.js","/_next/static/chunks/099m1nb_lg797.js","/_next/static/chunks/0qn_qdg2r2lpo.js","/_next/static/chunks/0eaixtig92f2w.js","/_next/static/chunks/02xqm164ylol2.js"],"Site"]
+4:I[82435,["/_next/static/chunks/046rxbz2oiujx.js","/_next/static/chunks/099m1nb_lg797.js","/_next/static/chunks/0qn_qdg2r2lpo.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","h1",null,{"style":{"position":"absolute","width":1,"height":1,"padding":0,"margin":-1,"overflow":"hidden","clip":"rect(0,0,0,0)","whiteSpace":"nowrap","border":0},"children":"Constantin Web Studios — ein Studio für Marken, Digital und Motion aus Niederösterreich, Österreich."}],["$","$L2",null,{}],["$","$L3",null,{}]],[["$","script","script-0",{"src":"/_next/static/chunks/0eaixtig92f2w.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/02xqm164ylol2.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XsvTQDEYY9D6WcOkXw8BA"}
+6:null

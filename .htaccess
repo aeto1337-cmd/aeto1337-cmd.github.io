@@ -1,0 +1,32 @@
+# Constantin Web Studios — static hosting (Hostinger / Apache)
+
+# ── GZIP compression for text assets ──────────────────────────────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    application/javascript application/json image/svg+xml application/manifest+json
+</IfModule>
+
+# ── Caching ───────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+  # Hashed, immutable build assets → cache hard for a year
+  <FilesMatch "\.(js|css|woff2?|ttf|otf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Media → cache a month
+  <FilesMatch "\.(mp4|webp|png|jpe?g|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # HTML → always revalidate so updates show immediately
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ── Correct MIME types ────────────────────────────────────────────
+AddType image/webp .webp
+AddType application/manifest+json .webmanifest
+AddType video/mp4 .mp4
+AddType image/svg+xml .svg
+
+# ── 404 ───────────────────────────────────────────────────────────
+ErrorDocument 404 /404.html

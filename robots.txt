@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://constantinwebstudios.com
+Sitemap: https://constantinwebstudios.com/sitemap.xml
